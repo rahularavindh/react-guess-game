@@ -1,0 +1,41 @@
+body {
+    font-family: cursive;
+    background-color: rgb(100,99,99);
+    padding: 15%;
+    padding-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head {
+    text-align: center;
+    color: white;
+}
+.container {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 16px;
+    width: 35rem;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+.input:hover {
+    border: 1px solid whitesmoke;
+    background-color: lightgray;
+}
+.input:focus {
+    border: none;
+    background-color: beige;
+}
+.label {
+    font-size: 22px;
+    font-weight: bold;
+}
