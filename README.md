@@ -1,12 +1,58 @@
-# React + Vite
+# React Guess the Number Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and fun number guessing game built with React to demonstrate fundamental concepts like state management and component props.
 
-Currently, two official plugins are available:
+## 🌟 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a mini-project that challenges a user to guess a randomly generated number between 1 and 10. The application provides real-time feedback, telling the user if their guess is higher or lower than the secret number, or if they've guessed it correctly.
 
-## Expanding the ESLint configuration
+The primary goal of this project was to practice and showcase basic React skills, including:
+- **State Management** with the `useState` hook.
+- **Component-Based Architecture** by separating the main logic (`App.js`) from the UI result (`Result.js`).
+- **Handling User Input** and events in React.
+- **Passing Data** between components using props.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Tech Stack
+
+- **Frontend:** React.js
+- **Styling:** Basic CSS
+
+## ✨ Features
+
+- Generates a random number on each page load.
+- Accepts user input for their guess.
+- Provides instant feedback: "Higher," "Lower," or "Correct!"
+- Simple, clean, and intuitive user interface.
+
+## ⚙️ Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+- [Node.js](https://nodejs.org/) (which includes npm)
+
+### Installation
+
+1.  Clone the repository to your local machine:
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    ```
+2.  Navigate into the project directory:
+    ```bash
+    cd your-repo-name
+    ```
+3.  Install the necessary NPM packages:
+    ```bash
+    npm install
+    ```
+
+## 🚀 Usage
+
+1.  After installation, run the following command to start the development server:
+    ```bash
+    npm run dev
+    ```
+2.  Open your browser and navigate to `http://localhost:3000` to play the game.
+
